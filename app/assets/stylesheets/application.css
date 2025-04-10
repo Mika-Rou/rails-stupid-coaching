@@ -13,3 +13,44 @@
  *= require_tree .
  *= require_self
  */
+h1 {
+  color: rgb(82, 81, 81)
+}
+
+.navbar {
+  width: 100%;
+  background-color: #333;
+  padding: 15px 0;
+  text-align: center;
+  position: fixed; /* Si tu veux qu'elle reste en haut en scrollant */
+  top: 0;
+  left: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
